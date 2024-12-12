@@ -1,10 +1,10 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom';
 import { arrow } from '../../public/assets/icons';
 
 const InfoBox = ({ text, link, btnText }) => (
-  <div className='info-box'>
-    <p className='font-medium sm:text-xl text-center'>{text}</p>
+  <div className='info-box text-sm p-0'>
+    <p className='font-medium sm:text-xl text-center  p-0'>{text}</p>
     <Link to={link} className='neo-brutalism-white neo-btn'>
       {btnText} <img src={arrow} className='w-4 h-4 object-contain' />
     </Link>
@@ -12,21 +12,21 @@ const InfoBox = ({ text, link, btnText }) => (
 );
 const renderContent = {
   1: (
-    <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue px-8 py-4 text-white mx-5'>
+    <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue text-white px-2 py-2 mx-5'>
       Hi, I am <span className='font-semibold'>Ridhi</span>👋
       <br />A Frontend developer from India.
     </h1>
   ),
   2: (
     <InfoBox
-      text='Worked with Tcs and picked up many skills along the way'
+      text='Building new projects and picking up many skills along the way'
       link='/about'
       btnText='Learn More'
     />
   ),
   3: (
     <InfoBox
-      text='This is my portfolio page showing the amazing projects'
+      text='View my amazing portfolio projects'
       link='/projects'
       btnText='Visit my portfolio'
     />

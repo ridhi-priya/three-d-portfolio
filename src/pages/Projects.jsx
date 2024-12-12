@@ -1,4 +1,3 @@
-import React from 'react';
 import { projects } from '../constants/index.jx';
 import CTA from '../components/CTA.jsx';
 import { Link } from 'react-router-dom';

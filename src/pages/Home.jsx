@@ -1,13 +1,17 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, Suspense, useEffect, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import Loader from '../components/Loader';
-import Island from '../models/isLand';
+import Island from '../models/IsLand';
 import Sky from '../models/Sky';
 import Bird from '../models/Bird';
 import Plane from '../models/Plane';
 import HomeInfo from '../components/HomeInfo';
 import sakura from '../../public/assets/sakura.mp3';
 import { soundon, soundoff } from '../../public/assets/icons';
+import {holdIcon} from '../../public/assets/images'
+
 // import { Plane } from '@react-three/drei';
 
 const Home = () => {
@@ -59,7 +63,7 @@ const Home = () => {
 
   return (
     <section className='w-full h-screen relative'>
-      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
+      <div className='absolute top-16 left-0 right-0 z-10 flex items-center justify-center '>
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
       <Canvas
@@ -103,6 +107,13 @@ const Home = () => {
           onClick={() => setIsPlayingMusic(!isplayingMusic)}
         />
       </div>
+      {/* <div className='absolute bottom-2 right-2'>
+        <img
+        src={holdIcon}
+        alt='Hold'
+        />
+        
+      </div> */}
     </section>
   );
 };

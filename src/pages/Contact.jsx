@@ -1,4 +1,5 @@
-import React, { Suspense } from 'react';
+/* eslint-disable no-unused-vars */
+import { Suspense } from 'react';
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Canvas } from '@react-three/fiber';

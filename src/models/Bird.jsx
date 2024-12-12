@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { useEffect, useRef } from 'react';
 import birdScene from '../../public/assets/3d/bird.glb';
 import { useAnimations, useGLTF } from '@react-three/drei';
