@@ -21,6 +21,7 @@ const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1); // define currentStage and setCurrentStage
   const [isplayingMusic, setIsPlayingMusic] = useState(false);
+    const [showTooltip, setShowTooltip] = useState(false); // Added state for tooltip
 
   useEffect(() => {
     if (isplayingMusic) {
@@ -63,7 +64,7 @@ const Home = () => {
 
   return (
     <section className='w-full h-screen relative'>
-      <div className='absolute top-16 left-0 right-0 z-10 flex items-center justify-center '>
+      <div className='absolute top-16 left-0 right-0 z-10 flex items-center justify-center'>
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
       <Canvas
@@ -107,13 +108,27 @@ const Home = () => {
           onClick={() => setIsPlayingMusic(!isplayingMusic)}
         />
       </div>
-      {/* <div className='absolute bottom-2 right-2'>
+
+
+      <div
+        className="absolute bottom-2 right-2 absolute "
+        onMouseEnter={() => setShowTooltip(true)}
+        onMouseLeave={() => setShowTooltip(false)}
+      >
+
         <img
-        src={holdIcon}
-        alt='Hold'
+          src={holdIcon}
+          alt="Hold"
+          className="w-10 h-10 cursor-pointer object-contain" 
         />
         
-      </div> */}
+        {showTooltip && (
+          <div className="absolute -top-12 right-1/2  whitespace-nowrap text-white bg-black text-xs px-3 py-1 rounded-md shadow-lg ">
+            Hold the screen for better experience
+          </div>
+        )}
+      </div>
+      
     </section>
   );
 };
