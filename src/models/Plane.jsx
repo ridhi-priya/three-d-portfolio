@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 
 
-import React, { useRef, useEffect } from 'react';
+import  { useRef, useEffect } from 'react';
 import planeScene from '../../public/assets/3d/plane.glb';
 import { useAnimations, useGLTF } from '@react-three/drei';
 
