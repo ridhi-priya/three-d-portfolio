@@ -1,4 +1,3 @@
-import React from 'react';
 import CTA from '../components/CTA.jsx';
 import { skills, experiences } from '../constants/index.jx';
 import {
@@ -18,8 +17,8 @@ const About = () => {
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Frontend developer base in India, Specializing in technical education
-          through hands-on learning and building applications.
+          Frontend developer, Specializing in technical education
+          through hands-on learning and building web applications.
         </p>
       </div>
       <div className='py-10 flex flex-col'>
@@ -42,12 +41,12 @@ const About = () => {
       {/* experiences */}
       <div className=' py-16 '>
         <h1 className='subhead-text'>Work Experiences</h1>
-        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+        {/* <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
             I've worked with all sorts of companies, leaving up my skills and
             teaming up with smart people. Here is the rundown:
           </p>
-        </div>
+        </div> */}
         <div className='mt-12 flex'>
           <VerticalTimeline>
             {experiences.map((experience) => (

@@ -16,9 +16,11 @@ import {
     nextjs,
     nodejs,
     pricewise,
+    bootstrap,
     react,
     redux,
     sass,
+    threejs,
     snapgram,
     summiz,
     tailwindcss,
@@ -67,7 +69,7 @@ export const skills = [
     },
     {
         id:7,
-        imageUrl: nextjs,
+        imageUrl: bootstrap,
         name: "Bootstrap",
         type: "Frontend",
     },
@@ -91,8 +93,8 @@ export const skills = [
     },
     {
         id:11,
-        imageUrl: sass,
-        name: "Sass",
+        imageUrl: threejs,
+        name: "threeJS",
         type: "Frontend",
     },
     {
