@@ -1,5 +1,5 @@
 import CTA from '../components/CTA.jsx';
-import { skills, experiences } from '../constants/index.jx';
+import { skills, experiences } from '../constants/index.js';
 import {
   VerticalTimeline,
   VerticalTimelineElement,

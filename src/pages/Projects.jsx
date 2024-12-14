@@ -1,4 +1,4 @@
-import { projects } from '../constants/index.jx';
+import { projects } from '../constants/index.js';
 import CTA from '../components/CTA.jsx';
 import { Link } from 'react-router-dom';
 import { arrow } from '../../public/assets/icons';
