@@ -21,7 +21,7 @@ const Contact = () => {
   const [error, setError] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState('idle');
 
-  const { alert, showAlert, hideAlert } = useAlert();
+  const { showAlert, hideAlert } = useAlert();
 
   const handleFocus = () => setCurrentAnimation('walk');
   const handleBlur = () => setCurrentAnimation('idle');

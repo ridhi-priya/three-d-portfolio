@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import CTA from '../components/CTA.jsx';
 import { skills, experiences } from '../constants/index.js';
 import {
@@ -49,9 +50,9 @@ const About = () => {
         </div> */}
         <div className='mt-12 flex'>
           <VerticalTimeline>
-            {experiences.map((experience) => (
+            {experiences.map((experience,index) => (
               <VerticalTimelineElement
-                key={experience.company_name}
+                key={index}
                 date={experience.date}
                 icon={
                   // <-- Changed: Directly pass JSX element here
