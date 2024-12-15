@@ -28,11 +28,19 @@ import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
+import sonic from "./sonic.svg";
+import now from "./now.svg";
+import event from "./event.svg";
+import email from "./email.svg";
 
 export {
   css,
+  sonic,
   express,
   git,
+  event,
+  email,
+  now,
   github,
   html,
   javascript,
