@@ -21,6 +21,7 @@ import {
   snapgram,
   summiz,
   tailwindcss,
+  twitter,
   threads,
   typescript,
 } from "../../public/assets/icons";
@@ -162,6 +163,11 @@ export const socialLinks = [
     name: "LinkedIn",
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/ridhi-priya/",
+  },
+  {
+    name: "Twitter",
+    iconUrl: twitter,
+    link: "https://x.com/Rpriya4503",
   },
 ];
 
