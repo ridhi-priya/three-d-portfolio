@@ -37,14 +37,15 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className='text-slate-500 mt-2'>{project.description}</p>
+              
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
-                  to={project.Repolink}
+                  to={project.Livelink}
                   target='_blank'
                   rel='noopener noreferrer'
                   className='font-semibold text-blue-600'
                 >
-                  Repo Link
+                  Live Link
                 </Link>
                 
                 <img
@@ -55,12 +56,12 @@ const Projects = () => {
               </div>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
-                  to={project.Livelink}
+                  to={project.Repolink}
                   target='_blank'
                   rel='noopener noreferrer'
                   className='font-semibold text-blue-600'
                 >
-                  Live Link
+                  Repo Link
                 </Link>
                 
                 <img
