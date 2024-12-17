@@ -22,23 +22,26 @@ const About = () => {
           through hands-on learning and building web applications.
         </p>
       </div>
-      <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
-        <div className='mt-16 flex flex-wrap gap-12'>
-          {skills.map((skill) => (
-            <div key={skill.id} className='block-container w-20 h-20 '>
-              <div className='btn-back rounded-xl' />
-              <div className='btn-front rounded-xl flex justify-center items-center '>
-                <img
-                  src={skill.imageUrl}
-                  alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain'
-                />
-              </div>
-            </div>
-          ))}
+      <div className='py-5 flex flex-col'>
+  <h3 className='subhead-text'>My Skills</h3>
+  <div className='mt-10 flex flex-wrap gap-12'>
+    {skills.map((skill) => (
+      <div key={skill.id} className='block-container w-20 h-20 rounded-xl'>
+        <div className='btn-front rounded-xl flex justify-center items-center relative group '>
+          <img
+            src={skill.imageUrl}
+            alt={skill.name}
+            className='w-1/2 h-1/2 object-contain'
+          />
+          <span className="absolute top-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+            {skill.text}
+          </span>
         </div>
       </div>
+    ))}
+  </div>
+</div>
+
       {/* experiences */}
       <div className=' py-16 '>
         <h1 className='subhead-text'>Work Experiences</h1>
