@@ -31,6 +31,8 @@ import soundoff from "./soundoff.png";
 import sonic from "./sonic.svg";
 import now from "./now.svg";
 import event from "./event.svg";
+import dog from "./dog.svg";
+import meme from "./meme.svg";
 import email from "./email.svg";
 import jquery from "./jquery.svg";
 import cpp from "./cpp.svg";
@@ -43,6 +45,8 @@ export {
   git,
   twitter,
   event,
+  dog,
+  meme,
   email,
   now,
   github,

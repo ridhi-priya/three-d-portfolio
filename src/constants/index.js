@@ -17,6 +17,8 @@ import {
   now,
   sonic,
   event,
+  dog,
+  meme,
   threejs,
   snapgram,
   summiz,
@@ -193,6 +195,26 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  // MemeVerse App
+  {
+    iconUrl: meme,
+    theme: "bg-pink-500",
+    name: "MemeVerse App",
+    description:
+      "Developed MemeVerse, a meme discovery app with dynamic search, categorization, and real-time updates using React, Tailwind CSS, and Redux Toolkit. Integrated REST APIs for fetching trending memes and enabling user interactions.",
+    Repolink: "https://github.com/ridhi-priya/MemeVerse",
+    Livelink: "https://meme-verse-gold.vercel.app/",
+  },
+  // Dog Search App
+  {
+    iconUrl: dog,
+    theme: "bg-purple-600",
+    name: "Dog Search App",
+    description:
+      "Developed a dog search application that allows users to search and filter dog breeds, displaying detailed information and images. Built with React and styled using Tailwind CSS, leveraging API integration for real-time breed data.",
+    Repolink: "https://github.com/ridhi-priya/dogSearch",
+    Livelink: "https://dog-search-gray.vercel.app/",
+  },
   // Event Management App
   {
     iconUrl: event,
@@ -226,7 +248,7 @@ export const projects = [
   // Portfolio using JS
   {
     iconUrl: snapgram,
-    theme: "btn-back-red",
+    theme: "bg-orange-500",
     name: "Portfolio using JS",
     description:
       "Crafted an interactive portfolio website using HTML, CSS, and JS, with dynamic animations, smooth section navigation, and an effective contact section for seamless communication and accessibility.",
@@ -246,7 +268,7 @@ export const projects = [
   // nameit
   {
     iconUrl: summiz,
-    theme: "btn-back-pink",
+    theme: "bg-cyan-500",
     name: "NameIt Application",
     description:
       "Developed a React project, Nameit, that generates over 100 name suggestions based on user-typed keywords, with functionality to redirect users to Namecheap.com to check domain availability, showcasing expertise in React, API integration, and user experience design.",
