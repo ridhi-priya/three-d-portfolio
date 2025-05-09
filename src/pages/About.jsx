@@ -18,8 +18,7 @@ const About = () => {
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Frontend developer, Specializing in technical education
-          through hands-on learning and building web applications.
+           Frontend Developer with 3+ years of experience building fast, scalable, and accessible web applications using React.js, JavaScript, and TypeScript. I specialize in performance optimization, multilingual solutions, and crafting intuitive user experiences.
         </p>
       </div>
       <div className='py-5 flex flex-col'>
