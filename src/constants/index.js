@@ -138,26 +138,16 @@ export const experiences = [
     company_name: "Tata consultancy services",
     icon: tcs,
     iconBg: "#E195AB",
-    date: "Aug 2023 - 15 Jan 2025 (Present)",
+    date: "MA2 2023 - 15 Jan 2025 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the frontend migration from DRA9 to DRA10, consolidating five global domains (Europe, AME, APAC, America, and VSAT) into a unified, user-friendly interface—boosting platform performance by 36% and enhancing scalability across mobile and desktop devices.",
+      "Implemented multilingual localization with React i18n and optimized user management modules, collaborating with international clients to enable seamless support for 5+ languages and achieving 25% faster rendering using Redux and Context API.",
+      "Engineered advanced search, filtering, and editing workflows in React.js, reducing manual errors and increasing operational efficiency. Worked closely with cross-functional teams to ensure secure API integrations and resolved 60+ bugs, leading to 99% platform reliability.
+
+",
     ],
   },
-  {
-    title: "ServiceNow (ITSM, Automations)",
-    company_name: "Tata consultancy services",
-    icon: tcs,
-    iconBg: "#62D84E",
-    date: "May 2022 - July 2023",
-    points: [
-      "Managed 34+ bundles on ServiceNow,  while collaborating with cross-functional teams for complex requests and ensuring timely resolutions.",
-      "Communicated effectively with international clients via email, chats, and calls, consistently exceeding performance metrics, contributing to a 13% increase in the customer base.",
-      "Leveraged problem solving skills and effective teamwork to enhance customer assurance, achieving recognition for project management skills while successfully managing inquiries from both foreign and native customers",
-    ],
-  },
+ 
   {
     title: "React.js Developer Intern",
     company_name: "appcentric",
