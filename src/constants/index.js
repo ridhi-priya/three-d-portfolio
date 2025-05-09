@@ -138,13 +138,11 @@ export const experiences = [
     company_name: "Tata consultancy services",
     icon: tcs,
     iconBg: "#E195AB",
-    date: "MA2 2023 - 15 Jan 2025 ",
+    date: "MAy 2022 - 15 Jan 2025 ",
     points: [
       "Led the frontend migration from DRA9 to DRA10, consolidating five global domains (Europe, AME, APAC, America, and VSAT) into a unified, user-friendly interface—boosting platform performance by 36% and enhancing scalability across mobile and desktop devices.",
       "Implemented multilingual localization with React i18n and optimized user management modules, collaborating with international clients to enable seamless support for 5+ languages and achieving 25% faster rendering using Redux and Context API.",
-      "Engineered advanced search, filtering, and editing workflows in React.js, reducing manual errors and increasing operational efficiency. Worked closely with cross-functional teams to ensure secure API integrations and resolved 60+ bugs, leading to 99% platform reliability.
-
-",
+      "Engineered advanced search, filtering, and editing workflows in React.js, reducing manual errors and increasing operational efficiency. Worked closely with cross-functional teams to ensure secure API integrations and resolved 60+ bugs, leading to 99% platform reliability.",
     ],
   },
  
